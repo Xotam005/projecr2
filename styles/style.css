@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
-.header{
+.header {
     background: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.main {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
 }
